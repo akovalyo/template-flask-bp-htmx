@@ -1,0 +1,16 @@
+footer {
+    background-color: white;
+    overflow: hidden;
+    height: 36px;
+
+   }
+.footer-wrapper {
+    align-items: center;
+    margin: 12px 0;
+
+}
+
+footer p{
+    color: #656565;
+    font-size: 14px;
+}

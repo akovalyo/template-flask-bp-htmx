@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    {% include 'head.html' %}
+<body>
+    {% include 'nav.html' %}
+    <div class="post-nav"></div>
+    <div class="content" id="content">
+        {% block content %}{% endblock %}
+    </div>
+    {% include 'footer.html' %}
+</body>
+</html>
